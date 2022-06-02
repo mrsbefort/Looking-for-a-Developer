@@ -149,13 +149,19 @@ ul.bus__list li {
   margin-bottom: 5px;
 }
 /* Project HTML page */
-.work{
+.workbg{
   background-color: #F1EAEB;
 }
-.hero-ctaa2{
+.work{
   width: 90%;
-  
   margin: auto;
+}
+.shadoww{
+  box-shadow: 5px 10px black;
+}
+.hero-ctaa2{
+  width: 100%;
+  margin-top: 50px;
   font-size: 70px;
   line-height: .5;
   font-style: italic;
@@ -172,11 +178,11 @@ animation: glow 1s ease-in-out infinite alternate;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: block;;
+  display: block;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  height: 90vh
+  height: 90vh;
 }
 
 .hero-cta2{
