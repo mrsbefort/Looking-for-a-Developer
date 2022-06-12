@@ -195,3 +195,108 @@ animation: glow 1s ease-in-out infinite alternate;
   font-size: 25px;
   color: white; 
 }
+
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 1482px) {
+  header{
+    display: flex;
+  }
+  .hero-ctaa{
+    display: flex;
+    font-size: 40px;
+    justify-content: flex-start;
+  }
+  #navbar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+.nav-item{
+  flex-direction: column;
+}
+.hero-cta{
+  background-color: pink;
+  opacity: .9;
+  border-radius: 50px;
+font-size: 22px;
+}
+  section {
+    padding: 30px 15px;
+  }
+
+  .workbg h5 {
+    flex: 1 100%;
+    text-align: center;
+  }
+
+  .workbg p{
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .workbg a{
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 998px) {
+
+#navbarNavDropdown {
+  justify-content: center;
+  font-size: 12px;
+  align-items: flex-start;
+}
+}
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  header h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-cta, .hero-ctaa, .hero-ctaa2, .hero-cta2{
+    width: 100%;
+  }
+  
+  .hero-cta {
+    text-align: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+  
+  .project{
+    flex: 0 70%;
+  }
+
+}
